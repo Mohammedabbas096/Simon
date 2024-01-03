@@ -1,0 +1,148 @@
+h1{
+    text-align: center;
+    font-family: "Audiowide", cursive;
+    font-size: 100px;
+    color: darkorange;
+    margin-top: 0%;
+    margin-left: 10%;
+    text-shadow: 2px 2px black;
+    position: relative;
+}
+body{
+  background-color: wheat;
+}
+@media only screen and (max-width:600px){
+    .simon{margin-top: 1cm;}
+    .breakbrick{visibility: hidden;}
+    h1{font-size: 50px; text-align: center;}
+
+}
+.snake{
+    height: 6cm;
+    width: 10cm;
+    margin-left: 20%;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+.snake:hover{
+  transform: scale(1.2);
+}
+.simon{
+    height: 6cm;
+    width: 10cm;
+    margin-left: 20%;  
+    position: absolute;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+.simon:hover{
+  transform: scale(1.2);
+}
+.breakbrick{
+    height: 6cm;
+    width: 10cm;
+    margin-left: 36%;
+    margin-top: 0.5cm;
+    position: relative;
+    border: 6px solid black;
+    border-radius: 5px;
+    }
+.breakbrick:hover{
+  transform: scale(1.2);
+}
+.marketing-site-footer {
+  background: #000000;
+  color: #8aa0ae;
+ /* padding: 2rem 0 0; */
+  
+}
+
+.marketing-site-footer .marketing-site-footer-menu-social a {
+  color: #897bea;
+  font-size: 1cm;
+  padding:1%;
+  padding-top: 5px;
+}
+
+.marketing-site-footer .column-block {
+  margin-bottom: 30px;
+}
+
+.marketing-site-footer > .row {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .marketing-site-footer .columns {
+    margin-bottom: 2rem;
+  }
+}
+
+.marketing-site-footer-name {
+  color: #eb5307;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-family: 'Serif', cursive;
+  margin-left: 1cm;
+  margin-top: 0;
+}
+
+.marketing-site-footer-title {
+  color: #fefefe;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.marketing-site-footer-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.marketing-site-footer-block .fa {
+  font-size: 2rem;
+  color: #f7f9fa;
+  margin-left: 4%;
+}
+
+.marketing-site-footer-block p {
+  margin-left: 2rem;
+  line-height: 1.125rem;
+  
+}
+
+.marketing-site-footer-bottom {
+  background: #4891d9;
+  padding: 1rem 0;
+  margin-bottom: 0;
+}
+
+.marketing-site-footer-bottom p,
+.marketing-site-footer-bottom .menu {
+  margin-bottom: 0;
+  text-align: center;
+  color: black;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 63.9375em) {
+  .marketing-site-footer-bottom {
+    text-align: center;
+  }
+}
+

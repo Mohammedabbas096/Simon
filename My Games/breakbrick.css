@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #252323;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  .sidebar a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e5d8d8;
+    border-width: 2%;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  .sidebar a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  .active {
+    background-color: rgb(236, 190, 106);
+    color: rgb(3, 3, 3);
+  }
+  .dropdown-container {
+    display: none;
+    background-color: #1d0c0c;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+h1{
+    font-family: 'Gill Sans Extrabold', cursive;
+    color: white;
+    font-size: 6rem;
+    margin-top: 0.6cm;
+    margin-bottom: 1cm;
+}
+#board {
+    background-color: rgb(57, 56, 56);
+    border-top: 5px solid rgb(40, 27, 220);
+    border-left: 5px solid rgb(40, 27, 220);
+    border-right: 5px solid rgb(40, 27, 220);
+}
